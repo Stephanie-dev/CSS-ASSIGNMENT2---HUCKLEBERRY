@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Lato";
+  max-width: 100%;
+}
+
+header {
+  border-bottom: 8px solid #999999;
+  padding: 50px 0px 100px 0px;
+}
+
+span {
+  color: rgb(6, 151, 115);
+}
+
+.header h1 {
+  top: 46px;
+  margin-left: 232px;
+  position: relative;
+}
+
+.header p {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 400px;
+  line-height: 30px;
+  position: relative;
+  top: 65px;
+  margin-left: 232px;
+}
+
+main {
+  background-color: #666666;
+  padding: 40px 0 40px 0;
+  max-width: 100%;
+  margin: auto;
+}
+
+.container {
+  background-color: white;
+  padding: 40px 20px 10px 20px;
+  width: 808px;
+  border-bottom: 8px solid #999999;
+  margin: auto;
+  line-height: 30px;
+}
+
+.banner {
+  background-color: #ffbf00;
+  padding: 14px 20px 14px 20px;
+  width: 32%;
+  box-shadow: 0 7px #cf9d05;
+  position: relative;
+  top: 65px;
+  left: 202px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 28.8px;
+}
+
+.first {
+  margin-top: 45px;
+}
+
+.container p {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 390px) {
+ main {
+    padding: 60px 0 60px 0;
+  }
+
+  h2 {
+    text-align: justify;
+  }
+
+  .container {
+    padding: 40px 20px 40px 20px;
+    width: 100%;
+  }
+
+  .header h1 {
+    top: 46px;
+    margin-left: 25px;
+    position: relative;
+  }
+
+  .header p {
+    position: relative;
+    top: 65px;
+    margin-left: 25px;
+  }
+
+  .first {
+    margin-top: 80px;
+  }
+
+  .banner {
+    width: 80%;
+    position: absolute;
+    top: 475px;
+    left: -8px;
+  }
+}
+
+@media only screen and (min-width: 391px) and (max-width: 768px) {
+  main {
+    padding: 60px 0 60px 0;
+  }
+
+  .header h1 {
+    top: 46px;
+    margin-left: 20px;
+    position: relative;
+  }
+
+  .header p {
+    position: relative;
+    top: 65px;
+    margin-left: 20px;
+  }
+  
+  .container {
+    padding: 40px 20px 40px 20px;
+    width: 100%;
+  }
+
+  .first {
+    margin-top: 55px;
+  }
+
+  .banner {
+    width: 50%;
+    position: absolute;
+    top: 445px;
+    left: -8px;
+    padding: 14px 25px 14px 25px;
+  }
+}
